@@ -31,37 +31,3 @@ body {
     text-wrap: balance;
   }
 }
-/* nav styles */
-nav {
-  @apply
-    pb-4
-    border-b-2 border-gray-200
-    flex items-center gap-5 
-    my-10 mx-auto 
-    max-w-5xl;
-}
-nav a, nav span {
-  @apply text-gray-500;
-}
-nav a:hover {
-  @apply text-black;
-}
-main nav {
-  @apply border-0;
-}
-h1 {
-  @apply font-bold text-center text-lg;
-}
-
-/* button styles */
-button {
-  @apply 
-    px-3 py-2 
-    rounded-sm 
-    flex justify-between items-center gap-2
-    text-sm;
-}
-button:hover {
-  @apply bg-opacity-90;
-}
-
