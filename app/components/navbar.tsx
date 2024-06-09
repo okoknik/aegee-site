@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Logo from './logo.png'
+import Logo from '../images/logo.png'
 
 export default function Navbar() {
   return (
@@ -13,9 +13,9 @@ export default function Navbar() {
         quality={100}
       />
       <h1>AEGEE-Paris</h1>
-      <Link href="/">Home</Link>
-      <Link href="/become-a-member">Join</Link>
-      <Link href="/about">About</Link>
+      <Link href="/en">Home</Link>
+      <Link href="/en/join">Join</Link>
+      <Link href="/en/about">About</Link>
     </nav>
   )
 }

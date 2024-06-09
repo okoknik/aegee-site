@@ -5,6 +5,8 @@ import "./globals.css";
 //components
 import Navbar from "./components/navbar"
 
+
+
 //configure font imported above
 const bebas = Bebas_Neue({ subsets: ["latin"],
   weight:'400'
