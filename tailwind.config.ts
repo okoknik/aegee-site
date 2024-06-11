@@ -17,6 +17,7 @@ const config: Config = {
         "pleasant-black":'#252525',
         "green":'#A0C413',
         "blue":'#153E79',
+        "light-black":'#2D2D34',
       },
       },
   },

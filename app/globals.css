@@ -18,8 +18,8 @@
 
 body {
   @apply
-    bg-white dark:bg-pleasant-black
-    text-black dark:text-white
+  bg-white dark:bg-pleasant-black
+  text-black dark:text-white
 }
 
 @layer utilities {
@@ -30,11 +30,11 @@ body {
 /* nav styles */
 nav {
   @apply
-    pb-4
-    border-b-2 border-gray-200
-    flex items-center gap-5 
-    my-5 mx-auto 
-    max-w-5xl;
+  pb-4
+  border-b-2 border-gray-200
+  flex items-center gap-5 
+  my-5 mx-auto 
+  max-w-5xl;
 }
 nav a, nav span {
   @apply text-gray-500 dark:text-white;
@@ -57,13 +57,14 @@ span {
 /* button styles */
 .button {
   @apply 
-    px-3 py-2 
-    rounded-full
-    flex justify-center
-    bg-blue
-    font-bold
-    text-black dark:text-white
-    my-5;
+  px-3 py-2 
+  rounded-full
+  flex justify-center
+  bg-blue
+  font-bold
+  text-black dark:text-white
+  my-5
+  w-auto inline-block;
 }
 button:hover {
   @apply bg-opacity-90;

@@ -3,7 +3,7 @@ import { Bebas_Neue, Open_Sans } from "next/font/google";
 import "./globals.css";
 
 //components
-import Navbar from "./components/navbar"
+import Navbar from "./components/Navbar"
 
 
 
