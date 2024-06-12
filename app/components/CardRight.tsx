@@ -6,12 +6,12 @@ interface CardProps {
   cat: string;
   heading: string;
   text: string;
-  color: string;
+ // color: string; add potential color attr to control color of cards
 }
 
-export default function CardRight({ img, alt, cat, heading, text, color }:CardProps) {
+export default function CardRight({ img, alt, cat, heading, text }:CardProps) {
   return(
-    <div className="flex justify-center  m-10 shadow-lg shadow-inner shadow-rose rounded-xl">
+    <div className="flex justify-center  m-10 shadow-lg shadow-inner shadow-black rounded-xl">
       <div className="bg-light-black  rounded-xl w-full h-full lg:max-w-full lg:flex ">
         <div className="max-sw:w-1/2 max-sw:h-auto lg:h-auto lg:max-w-52 flex bg-cover rounded-xl text-center m-5 rounded-r-none ">
           <Image 
