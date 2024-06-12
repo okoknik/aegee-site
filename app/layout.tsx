@@ -3,8 +3,8 @@ import { Bebas_Neue, Open_Sans } from "next/font/google";
 import "./globals.css";
 
 //components
-import Navbar from "./components/Navbar"
-
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 
 //configure font imported above
@@ -30,7 +30,7 @@ export default function RootLayout({
       <body className={opensans.className}>        
        <Navbar />
       {children}
-
+      <Footer />
       </body>
     </html>
   );
