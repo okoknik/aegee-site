@@ -37,11 +37,11 @@ nav {
   max-w-5xl;
 }
 nav a, nav span {
-  @apply text-gray-500 dark:text-white;
+  @apply text-gray-700 dark:text-white;
 }
 nav a:hover {
   @apply 
-  text-black dark:text-white;
+  text-black dark:text-gray-500;
 }
 main nav {
   @apply border-0;
@@ -62,7 +62,7 @@ span {
   flex justify-center
   bg-blue
   font-bold
-  text-black dark:text-white
+  text-white
   my-5
   w-auto inline-block;
 }

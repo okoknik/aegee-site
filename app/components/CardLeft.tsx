@@ -11,7 +11,7 @@ interface CardProps {
 export default function CardLeft({ img, alt, cat, heading, text }:CardProps) {
   return(
     <div className="flex justify-center  m-10">
-         <div className="bg-light-black rounded-xl w-full rounded-r-none p-4 flex justify-between leading-normal shadow-black">
+         <div className="bg-light-black rounded-xl w-full rounded-r-none p-4 flex justify-between leading-normal shadow-md">
         <div className="m-8">
           <p className="text-md text-gray-100 flex items-center">{cat}</p>
           <div className="text-white font-bold text-3xl mb-2">{heading}</div>
