@@ -9,7 +9,6 @@ import Suitcase from "./images/suitcase-blue.png";
 
 //card components
 import CardRight from "./components/CardRight";
-import CardLeft from "./components/CardLeft";
 
 
 export default function Home() {
