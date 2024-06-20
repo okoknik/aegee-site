@@ -23,6 +23,9 @@ export default function Footer() {
               <div className="mx-5">
                 <SocialIcon url="https://whatsapp.com" />
               </div>
+              <div className="mx-5">
+                <SocialIcon url="mailto:aegee-paris@aegee.eu" />
+              </div>
             </div>
           </div>
         </div>

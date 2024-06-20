@@ -11,6 +11,7 @@ interface CardProps {
 }
 
 export default function CardRight({ img, alt, cat, heading, text, link ,color}:CardProps) {
+  console.log(color)
   return(
     <div className="flex justify-center  m-10 shadow-lg shadow-inner shadow-black rounded-xl">
       <div className="bg-light-black  rounded-xl w-full h-full lg:max-w-full lg:flex ">
