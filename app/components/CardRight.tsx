@@ -6,10 +6,11 @@ interface CardProps {
   cat: string;
   heading: string;
   text: string;
- // color: string; add potential color attr to control color of cards
+  link: string;
+  color: string;
 }
 
-export default function CardRight({ img, alt, cat, heading, text }:CardProps) {
+export default function CardRight({ img, alt, cat, heading, text, link ,color}:CardProps) {
   return(
     <div className="flex justify-center  m-10 shadow-lg shadow-inner shadow-black rounded-xl">
       <div className="bg-light-black  rounded-xl w-full h-full lg:max-w-full lg:flex ">
@@ -20,11 +21,12 @@ export default function CardRight({ img, alt, cat, heading, text }:CardProps) {
           />
 
         </div>
-        <div className="bg-light-black rounded-xl rounded-l-none p-4 flex flex-col justify-between leading-normal">
+        <div className="bg-light-black rounded-xl rounded-l-none p-4 flex flex-col justify-between leading-normal  ">
           <div className="m-8">
             <p className="text-md text-gray-100 flex items-center">{cat}</p>
             <div className="text-white font-bold text-3xl mb-2">{heading}</div>
-            <p className="text-grey-100 text-xl">{text}</p>
+            <p className="text-grey-100 text-xl ">{text}</p>
+            <a className={`button bg-${color}`} href={link}>Learn More</a>
           </div>
         </div>
       </div>
