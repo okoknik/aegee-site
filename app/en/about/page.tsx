@@ -9,6 +9,7 @@ export default function About(){
       <h1 className="flex justify-left my-10 mx-20 font-black text-7xl">Get to know us!</h1>
         <Image
           src={Logo}
+          alt="Logo AEGEE-Paris"
         />
       <div className="inline-flex justify-center text-center my-10 mx-20 text-xl">
         <span>
